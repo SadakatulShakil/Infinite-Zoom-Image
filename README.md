@@ -1,4 +1,4 @@
-# byte_trek_task
+# Infinite zoom images
 
 A new Flutter project.
 
