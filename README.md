@@ -1,4 +1,4 @@
-# infinite_zoom_effect
+# byte_trek_task
 
 A new Flutter project.
 
