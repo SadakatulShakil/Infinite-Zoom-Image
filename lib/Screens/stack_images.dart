@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class StackImagesPage extends StatefulWidget {
+class StackZoomImagesPage extends StatefulWidget {
   @override
-  _StackImagesPageState createState() => _StackImagesPageState();
+  _StackZoomImagesPageState createState() => _StackZoomImagesPageState();
 }
 
-class _StackImagesPageState extends State<StackImagesPage> {
+class _StackZoomImagesPageState extends State<StackZoomImagesPage> {
   int imageCount = 6;
 
   @override

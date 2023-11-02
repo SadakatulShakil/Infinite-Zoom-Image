@@ -1,3 +1,4 @@
+import 'package:Infinite_Zoom/Screens/using_package.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/stack_images.dart';
@@ -45,7 +46,7 @@ class MyHomePage extends StatelessWidget {
             onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => StackImagesPage(),
+                  builder: (context) => StackZoomImagesPage(),
                 ),
               );
               // Handle the left-side button click
@@ -64,6 +65,18 @@ class MyHomePage extends StatelessWidget {
               print('Video button clicked!');
             },
             child: Icon(Icons.video_library),
+          ),
+          SizedBox(height: 16),
+          FloatingActionButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => PackageImagesPage(),
+                ),
+              );
+              print('Video button clicked!');
+            },
+            child: Icon(Icons.add_chart_outlined),
           ),
         ],
       ),
